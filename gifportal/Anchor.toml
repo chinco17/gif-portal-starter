@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.devnet]
+gifportal = "FYovT4HCGTEMGjNuCxzbEcAkPR4N1oPPXFKqQiu4LQxs"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/chin/.config/solana/id.json"
+
+[scripts]
+test = "node tests/gifportal.js"
